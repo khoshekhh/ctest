@@ -19,7 +19,7 @@ int square(double a, double b, double c) {
     D = b * b - 4 * a * c;
 
     if (D < 0)
-        cout << "no roots";
+        printf("no roots);
 
     if (D = 0) {
         x1 = -b / (2 * a);
