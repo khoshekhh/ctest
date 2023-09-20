@@ -28,13 +28,14 @@ int square(double a, double b, double c) {
     
     if (D = 0) {
         x1 = -b / (2 * a);
-        printf(x1);
+        printf("%lf", x1);
     }
 
     if (D > 0) {
         x1 = (-b + sqrt(D)) / (2 * a);
         x2 = (-b - sqrt(D)) / (2 * a);
-        printf(x1, x2);
+        printf("%lf", x1);
+        printf("%lf", x2);
     }
 }
 
