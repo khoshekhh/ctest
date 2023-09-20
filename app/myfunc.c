@@ -11,7 +11,7 @@ int myfunc(int b) {
     return buffer[0];
 }
 
-int square(double a, double b, double c, double x1, double x2) {
+int square(double a, double b, double c) {
     double D = 1;
     double x1 = 1;
     double x2 = 1;
