@@ -15,7 +15,11 @@ int square(double a, double b, double c) {
     double D = 1;
     double x1 = 1;
     double x2 = 1;
-    
+
+    a = 2;
+    b = 1;
+    c = 5;
+
     D = b * b - 4 * a * c;
 
     if (D < 0) {
