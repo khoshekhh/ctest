@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "myfunc.h"
+#include <math.h>
 
 int myfunc(int b) {
     char *buffer = malloc(sizeof(char) * 1000);
@@ -9,6 +10,25 @@ int myfunc(int b) {
     // здесь должен ругаться sonarcloud, т.к. утечка памяти
     return buffer[0];
 }
+
+int square(double a, b, c, x1, x2) {
+    double D = 1;
+    double x1 = 1;
+    double x2 = 1;
+    
+    D = b * b - 4 * a * c;
+
+    if (D < 0)
+        return ("no roots");
+
+    if (D = 0) {
+        x1 = -b / (2 * a);
+        return (x1);
+    }
+
+    if (D > 0) {
+        x1 = (-b  / (2 * a);
+    
 
 int val;
 
